@@ -37,7 +37,7 @@ function Admin() {
         // call auth API
         try {
           console.log("Calling auth API")
-          await axios.get('http://localhost:3008', meetingData)
+          await axios.get('https://7e64-14-203-92-224.au.ngrok.io', meetingData)
           .then((response) => {
               console.log("Hurray, this works");
 
@@ -104,7 +104,7 @@ function Admin() {
   return (
     <>
       <DashboardContainer>
-        <h2>Hello admin</h2>
+        <h2>Hello admin v2</h2>
         <h3>Create a new meeting</h3>
         <Form onSubmit={handleSubmit} >
             <label>Student</label>
