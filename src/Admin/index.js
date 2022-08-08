@@ -104,7 +104,7 @@ function Admin() {
   return (
     <>
       <DashboardContainer>
-        <h2>Hello admin v9</h2>
+        <h2>Hello admin v10</h2>
         <h3>Create a new meeting</h3>
         <Form onSubmit={handleSubmit} >
             <label>Student</label>
