@@ -1,7 +1,3 @@
-// const zoomConfig = require("../config/zoom.js");
-// const jwt = require("jsonwebtoken");
-// const rp = require("request-promise");
-
 // Bring in environment secrets through dotenv
 require('dotenv/config')
 
