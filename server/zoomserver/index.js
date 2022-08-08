@@ -11,7 +11,7 @@ const express = require('express')
 const app = express()
 
 //app.use(cors())
-app.use(cors({origin: '*'}));
+app.use(cors({origin: 'null'}));
 
 // Allow CORS access
 // app.use((req, res, next) => {
